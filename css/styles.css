@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(144, 125, 250);
+}
+
+p{
+    font-family: sans-serif;
+    background-color: rgb(111, 107, 168);
+    color: rgb(219, 206, 255);
+    padding: 20px;
+    font-style: oblique;
+}
+
+.navbar {
+    background-color: rgb(38, 49, 99);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.navbar a {
+    color: rgb(219, 206, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    background-color: rgb(141, 93, 196);
+    color: black;
+}
+
+
+
+#landing{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#about {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    font-size: 20px;
+    height: inherit;
+    width: inherit;
+    margin: 6px;
+    justify-content: center;
+}
+
+#contact{
+    display: flex;
+    position: relative;
+    text-align: left;
+    background-color: white;
+    padding: 100px;
+    font-size: 20px;
+    height: inherit;
+    width: inherit;
+    margin: 6px;
+}
+
+#links{
+    display: flex;
+    position: relative;
+    text-align: left;
+    background-color: white;
+    padding: 100px;
+    font-size: 20px;
+    height: inherit;
+    width: inherit;
+    margin: 6px;
+}
+
+#footer{
+    display: flex;
+    position: relative;
+    background-color: rgb(38, 49, 99);
+    padding: 20px;
+    justify-content: center;
+    height: 3px;
+    width: inherit;
+}
+
+#landingtext h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 220, 188);
+    font-variant: small-caps;
+}
+
+#starting{
+    width: 100%;
+}
+
+a.active{
+    background-color: brown;
+}
+
+
+#footer a{
+    border: lightcoral;
+    border-width: thin;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: lightcyan;
+}
